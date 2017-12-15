@@ -18,3 +18,6 @@ Các bước như sau:
 10. docker run -d --name mynode -p 3000:3000 mynode:latest
 11. docker ps
 12. curl http://localhost:3000
+13. Add environment variable to container
+docker run -d --name mynode -p 3000:3000 NODE_EVN=production mynode:latest
+
